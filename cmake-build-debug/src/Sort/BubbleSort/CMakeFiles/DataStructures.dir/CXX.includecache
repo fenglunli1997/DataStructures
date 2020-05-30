@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/fll/WorkSpaces/CLion/DataStructures/src/Sort/BubbleSort/BubbleSort.cpp
+iostream
+-
+BubbleSort.h
+/Users/fll/WorkSpaces/CLion/DataStructures/src/Sort/BubbleSort/BubbleSort.h
+
+/Users/fll/WorkSpaces/CLion/DataStructures/src/Sort/BubbleSort/BubbleSort.h
+
