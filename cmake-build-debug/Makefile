@@ -150,6 +150,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/DataStructures.dir/build.make CMakeFiles/DataStructures.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+src/Common/Commons.o: src/Common/Commons.cpp.o
+
+.PHONY : src/Common/Commons.o
+
+# target to build an object file
+src/Common/Commons.cpp.o:
+	$(MAKE) -f CMakeFiles/DataStructures.dir/build.make CMakeFiles/DataStructures.dir/src/Common/Commons.cpp.o
+.PHONY : src/Common/Commons.cpp.o
+
+src/Common/Commons.i: src/Common/Commons.cpp.i
+
+.PHONY : src/Common/Commons.i
+
+# target to preprocess a source file
+src/Common/Commons.cpp.i:
+	$(MAKE) -f CMakeFiles/DataStructures.dir/build.make CMakeFiles/DataStructures.dir/src/Common/Commons.cpp.i
+.PHONY : src/Common/Commons.cpp.i
+
+src/Common/Commons.s: src/Common/Commons.cpp.s
+
+.PHONY : src/Common/Commons.s
+
+# target to generate assembly for a file
+src/Common/Commons.cpp.s:
+	$(MAKE) -f CMakeFiles/DataStructures.dir/build.make CMakeFiles/DataStructures.dir/src/Common/Commons.cpp.s
+.PHONY : src/Common/Commons.cpp.s
+
 src/Sort/BubbleSort/BubbleSort.o: src/Sort/BubbleSort/BubbleSort.cpp.o
 
 .PHONY : src/Sort/BubbleSort/BubbleSort.o
@@ -177,6 +204,60 @@ src/Sort/BubbleSort/BubbleSort.cpp.s:
 	$(MAKE) -f CMakeFiles/DataStructures.dir/build.make CMakeFiles/DataStructures.dir/src/Sort/BubbleSort/BubbleSort.cpp.s
 .PHONY : src/Sort/BubbleSort/BubbleSort.cpp.s
 
+src/Sort/SimpleSelect/SimpleSelect.o: src/Sort/SimpleSelect/SimpleSelect.cpp.o
+
+.PHONY : src/Sort/SimpleSelect/SimpleSelect.o
+
+# target to build an object file
+src/Sort/SimpleSelect/SimpleSelect.cpp.o:
+	$(MAKE) -f CMakeFiles/DataStructures.dir/build.make CMakeFiles/DataStructures.dir/src/Sort/SimpleSelect/SimpleSelect.cpp.o
+.PHONY : src/Sort/SimpleSelect/SimpleSelect.cpp.o
+
+src/Sort/SimpleSelect/SimpleSelect.i: src/Sort/SimpleSelect/SimpleSelect.cpp.i
+
+.PHONY : src/Sort/SimpleSelect/SimpleSelect.i
+
+# target to preprocess a source file
+src/Sort/SimpleSelect/SimpleSelect.cpp.i:
+	$(MAKE) -f CMakeFiles/DataStructures.dir/build.make CMakeFiles/DataStructures.dir/src/Sort/SimpleSelect/SimpleSelect.cpp.i
+.PHONY : src/Sort/SimpleSelect/SimpleSelect.cpp.i
+
+src/Sort/SimpleSelect/SimpleSelect.s: src/Sort/SimpleSelect/SimpleSelect.cpp.s
+
+.PHONY : src/Sort/SimpleSelect/SimpleSelect.s
+
+# target to generate assembly for a file
+src/Sort/SimpleSelect/SimpleSelect.cpp.s:
+	$(MAKE) -f CMakeFiles/DataStructures.dir/build.make CMakeFiles/DataStructures.dir/src/Sort/SimpleSelect/SimpleSelect.cpp.s
+.PHONY : src/Sort/SimpleSelect/SimpleSelect.cpp.s
+
+src/Stack/Stack.o: src/Stack/Stack.cpp.o
+
+.PHONY : src/Stack/Stack.o
+
+# target to build an object file
+src/Stack/Stack.cpp.o:
+	$(MAKE) -f CMakeFiles/DataStructures.dir/build.make CMakeFiles/DataStructures.dir/src/Stack/Stack.cpp.o
+.PHONY : src/Stack/Stack.cpp.o
+
+src/Stack/Stack.i: src/Stack/Stack.cpp.i
+
+.PHONY : src/Stack/Stack.i
+
+# target to preprocess a source file
+src/Stack/Stack.cpp.i:
+	$(MAKE) -f CMakeFiles/DataStructures.dir/build.make CMakeFiles/DataStructures.dir/src/Stack/Stack.cpp.i
+.PHONY : src/Stack/Stack.cpp.i
+
+src/Stack/Stack.s: src/Stack/Stack.cpp.s
+
+.PHONY : src/Stack/Stack.s
+
+# target to generate assembly for a file
+src/Stack/Stack.cpp.s:
+	$(MAKE) -f CMakeFiles/DataStructures.dir/build.make CMakeFiles/DataStructures.dir/src/Stack/Stack.cpp.s
+.PHONY : src/Stack/Stack.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -189,9 +270,18 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/Common/Commons.o"
+	@echo "... src/Common/Commons.i"
+	@echo "... src/Common/Commons.s"
 	@echo "... src/Sort/BubbleSort/BubbleSort.o"
 	@echo "... src/Sort/BubbleSort/BubbleSort.i"
 	@echo "... src/Sort/BubbleSort/BubbleSort.s"
+	@echo "... src/Sort/SimpleSelect/SimpleSelect.o"
+	@echo "... src/Sort/SimpleSelect/SimpleSelect.i"
+	@echo "... src/Sort/SimpleSelect/SimpleSelect.s"
+	@echo "... src/Stack/Stack.o"
+	@echo "... src/Stack/Stack.i"
+	@echo "... src/Stack/Stack.s"
 .PHONY : help
 
 

@@ -1,25 +1,23 @@
 #include <iostream>
 #include "src/Sort/BubbleSort/BubbleSort.h"
+#include "src/Stack/Stack.h"
 using std::cin;
 using std::cout;
 using std::endl;
 
 int main() {
-    cout << "请输入待排序长度:";
-    int size;
-    cin >> size;
-    if(size == 0){
-        return 0;
-    }
-    cout << "接下来请输入" << size << "个待排序元素:" << endl;
-    int array[size];
-    for(int i=0; i<size; i++){
-        cin >> array[i];
-    }
-    cout<<"输入排序方式，1代表从大到小:";
     int choice;
+    cout<<"请选择要测试的数据结构：1.栈；2.冒泡排序：";
     cin>>choice;
-    BubbleSort b(array, size, choice==1);
-    b.print();
+    switch (choice) {
+    case 1:
+        testStack();
+        break;
+    case 2:
+        testBubbleSort();
+        break;
+    default:
+        break;
+    }
     return 0;
 }

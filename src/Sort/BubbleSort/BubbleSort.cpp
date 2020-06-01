@@ -1,14 +1,9 @@
 #include <iostream>
 #include "BubbleSort.h"
+#include "../../Common/Commons.h"
 using std::cin;
 using std::cout;
 using std::endl;
-
-void BubbleSort::swap(int &a, int &b){
-    int temp = a;
-    a = b;
-    b = temp;
-}
 
 int * BubbleSort::sort(int array[]){
     for(int i=size; i>0; i--){
@@ -26,12 +21,10 @@ int * BubbleSort::sort(int array[]){
 }
 
 void BubbleSort::desc(){
-    for(int i=0; i<size/2; i++){
-        swap(result[i], result[size-i-1]);
-    }
-    // isDesc = !isDesc;
+    descSort(result);
 }
 
+BubbleSort::BubbleSort() {}
 
 BubbleSort::BubbleSort(int array[]){
     BubbleSort(array, 0, false);
@@ -49,32 +42,25 @@ int * BubbleSort::getSort(){
     return result;
 }
 void BubbleSort::print(){
-    cout << (isDesc ? "从大到小" : "从小到大") << "的排列是:{";
-    for(int i=0; i<size; i++){
-        cout<<result[i];
-        if(i!=size-1){
-            cout<<",";
-        }else{
-            cout<<"}";
-            return;
-        }
-    }
+    printSort(isDesc, size, result);
 }
 
-//int main(){
-//    // int a[5] = {2,3,1,4,9};
-//    cout << "请输入待排序长度:";
-//    int size;
-//    cin >> size;
-//    cout << "接下来请输入" << size << "个待排序元素:" << endl;
-//    int array[size];
-//    for(int i=0; i<size; i++){
-//        cin >> array[i];
-//    }
-//    cout<<"输入排序方式，1代表从大到小:";
-//    int choice;
-//    cin>>choice;
-//    BubbleSort b(array, size, choice==1);
-//    b.print();
-//    return 0;
-//}
+int testBubbleSort(){
+    cout << "请输入待排序长度:";
+    int size;
+    cin >> size;
+    if(size == 0){
+        return 0;
+    }
+    cout << "接下来请输入" << size << "个待排序元素:" << endl;
+    int array[size];
+    for(int i=0; i<size; i++){
+        cin >> array[i];
+    }
+    cout<<"输入排序方式，1代表从大到小:";
+    int choice;
+    cin>>choice;
+    BubbleSort b(array, size, choice==1);
+    b.print();
+    return 0;
+}

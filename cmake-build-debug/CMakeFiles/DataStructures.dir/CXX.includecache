@@ -6,17 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/Users/fll/WorkSpaces/CLion/DataStructures/main.cpp
+/Users/fll/WorkSpaces/CLion/DataStructures/src/Common/Commons.h
+
+/Users/fll/WorkSpaces/CLion/DataStructures/src/Stack/Stack.cpp
 iostream
 -
-src/Sort/BubbleSort/BubbleSort.h
-/Users/fll/WorkSpaces/CLion/DataStructures/src/Sort/BubbleSort/BubbleSort.h
+Stack.h
+/Users/fll/WorkSpaces/CLion/DataStructures/src/Stack/Stack.h
+../Common/Commons.h
+/Users/fll/WorkSpaces/CLion/DataStructures/src/Common/Commons.h
 
-/Users/fll/WorkSpaces/CLion/DataStructures/src/Sort/BubbleSort/BubbleSort.cpp
-iostream
--
-BubbleSort.h
-/Users/fll/WorkSpaces/CLion/DataStructures/src/Sort/BubbleSort/BubbleSort.h
-
-/Users/fll/WorkSpaces/CLion/DataStructures/src/Sort/BubbleSort/BubbleSort.h
+/Users/fll/WorkSpaces/CLion/DataStructures/src/Stack/Stack.h
 

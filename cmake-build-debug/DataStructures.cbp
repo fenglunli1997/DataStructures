@@ -83,10 +83,28 @@
 		<Unit filename="/Users/fll/WorkSpaces/CLion/DataStructures/main.cpp">
 			<Option target="DataStructures"/>
 		</Unit>
+		<Unit filename="/Users/fll/WorkSpaces/CLion/DataStructures/src/Common/Commons.cpp">
+			<Option target="DataStructures"/>
+		</Unit>
+		<Unit filename="/Users/fll/WorkSpaces/CLion/DataStructures/src/Common/Commons.h">
+			<Option target="DataStructures"/>
+		</Unit>
 		<Unit filename="/Users/fll/WorkSpaces/CLion/DataStructures/src/Sort/BubbleSort/BubbleSort.cpp">
 			<Option target="DataStructures"/>
 		</Unit>
 		<Unit filename="/Users/fll/WorkSpaces/CLion/DataStructures/src/Sort/BubbleSort/BubbleSort.h">
+			<Option target="DataStructures"/>
+		</Unit>
+		<Unit filename="/Users/fll/WorkSpaces/CLion/DataStructures/src/Sort/SimpleSelect/SimpleSelect.cpp">
+			<Option target="DataStructures"/>
+		</Unit>
+		<Unit filename="/Users/fll/WorkSpaces/CLion/DataStructures/src/Sort/SimpleSelect/SimpleSelect.h">
+			<Option target="DataStructures"/>
+		</Unit>
+		<Unit filename="/Users/fll/WorkSpaces/CLion/DataStructures/src/Stack/Stack.cpp">
+			<Option target="DataStructures"/>
+		</Unit>
+		<Unit filename="/Users/fll/WorkSpaces/CLion/DataStructures/src/Stack/Stack.h">
 			<Option target="DataStructures"/>
 		</Unit>
 		<Unit filename="/Users/fll/WorkSpaces/CLion/DataStructures/CMakeLists.txt">
