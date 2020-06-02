@@ -10,9 +10,11 @@ void swap(int& a, int& b);
 
 void descSort(ElemType* result);
 
-void printSort(bool isDesc, int size, int* result);
+void printSort(int* result, bool isDesc);
 
-int getArrayLength(int* arr);
+//int getArrayLength(int* arr);
+template<class T>
+int getArrayLength(const T &arr);
 
 void printArray(ElemType* arr);
 

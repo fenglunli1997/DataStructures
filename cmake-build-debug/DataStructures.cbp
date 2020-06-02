@@ -95,6 +95,9 @@
 		<Unit filename="/Users/fll/WorkSpaces/CLion/DataStructures/src/Sort/BubbleSort/BubbleSort.h">
 			<Option target="DataStructures"/>
 		</Unit>
+		<Unit filename="/Users/fll/WorkSpaces/CLion/DataStructures/src/Sort/BubbleSort/testBubbleSort.cpp">
+			<Option target="DataStructures"/>
+		</Unit>
 		<Unit filename="/Users/fll/WorkSpaces/CLion/DataStructures/src/Sort/SimpleSelect/SimpleSelect.cpp">
 			<Option target="DataStructures"/>
 		</Unit>
@@ -105,6 +108,9 @@
 			<Option target="DataStructures"/>
 		</Unit>
 		<Unit filename="/Users/fll/WorkSpaces/CLion/DataStructures/src/Stack/Stack.h">
+			<Option target="DataStructures"/>
+		</Unit>
+		<Unit filename="/Users/fll/WorkSpaces/CLion/DataStructures/src/Stack/testStack.cpp">
 			<Option target="DataStructures"/>
 		</Unit>
 		<Unit filename="/Users/fll/WorkSpaces/CLion/DataStructures/CMakeLists.txt">

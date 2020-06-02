@@ -15,17 +15,19 @@ typedef struct {
 
 class Stack{
 private:
-    stack s;
+    stack s{};
 
-    stack init();
+    void init();
 public:
     Stack();
 
-    Stack(ElemType* arr);
+    explicit Stack(ElemType* arr);
 
-    bool isEmpty();
+    void quickInit(ElemType* arr);
 
-    int getSum();
+    bool isEmpty() const;
+
+    int getSum() const;
 
     ElemType pop(ElemType& e);
 
@@ -34,9 +36,9 @@ public:
     ElemType* popAll();
 
     void print();
-
-    ElemType* desc();
 };
+
+void descArray(ElemType *result);
 
 void testStack();
 

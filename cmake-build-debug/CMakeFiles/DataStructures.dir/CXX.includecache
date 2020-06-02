@@ -6,7 +6,23 @@
 
 #IncludeRegexTransform: 
 
+/Users/fll/WorkSpaces/CLion/DataStructures/src/Common/Commons.cpp
+iostream
+-
+Commons.h
 /Users/fll/WorkSpaces/CLion/DataStructures/src/Common/Commons.h
+../Stack/Stack.h
+/Users/fll/WorkSpaces/CLion/DataStructures/src/Stack/Stack.h
+
+/Users/fll/WorkSpaces/CLion/DataStructures/src/Common/Commons.h
+
+/Users/fll/WorkSpaces/CLion/DataStructures/src/Sort/BubbleSort/BubbleSort.cpp
+BubbleSort.h
+/Users/fll/WorkSpaces/CLion/DataStructures/src/Sort/BubbleSort/BubbleSort.h
+../../Common/Commons.h
+/Users/fll/WorkSpaces/CLion/DataStructures/src/Common/Commons.h
+
+/Users/fll/WorkSpaces/CLion/DataStructures/src/Sort/BubbleSort/BubbleSort.h
 
 /Users/fll/WorkSpaces/CLion/DataStructures/src/Stack/Stack.cpp
 iostream
@@ -17,4 +33,12 @@ Stack.h
 /Users/fll/WorkSpaces/CLion/DataStructures/src/Common/Commons.h
 
 /Users/fll/WorkSpaces/CLion/DataStructures/src/Stack/Stack.h
+
+/Users/fll/WorkSpaces/CLion/DataStructures/src/Stack/testStack.cpp
+iostream
+-
+Stack.h
+/Users/fll/WorkSpaces/CLion/DataStructures/src/Stack/Stack.h
+../Common/Commons.h
+/Users/fll/WorkSpaces/CLion/DataStructures/src/Common/Commons.h
 

@@ -109,9 +109,35 @@ CMakeFiles/DataStructures.dir/src/Stack/Stack.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DataStructures.dir/src/Stack/Stack.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/fll/WorkSpaces/CLion/DataStructures/src/Stack/Stack.cpp -o CMakeFiles/DataStructures.dir/src/Stack/Stack.cpp.s
 
+CMakeFiles/DataStructures.dir/src/Stack/testStack.cpp.o: CMakeFiles/DataStructures.dir/flags.make
+CMakeFiles/DataStructures.dir/src/Stack/testStack.cpp.o: ../src/Stack/testStack.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fll/WorkSpaces/CLion/DataStructures/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/DataStructures.dir/src/Stack/testStack.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DataStructures.dir/src/Stack/testStack.cpp.o -c /Users/fll/WorkSpaces/CLion/DataStructures/src/Stack/testStack.cpp
+
+CMakeFiles/DataStructures.dir/src/Stack/testStack.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DataStructures.dir/src/Stack/testStack.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/fll/WorkSpaces/CLion/DataStructures/src/Stack/testStack.cpp > CMakeFiles/DataStructures.dir/src/Stack/testStack.cpp.i
+
+CMakeFiles/DataStructures.dir/src/Stack/testStack.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DataStructures.dir/src/Stack/testStack.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/fll/WorkSpaces/CLion/DataStructures/src/Stack/testStack.cpp -o CMakeFiles/DataStructures.dir/src/Stack/testStack.cpp.s
+
+CMakeFiles/DataStructures.dir/src/Sort/BubbleSort/testBubbleSort.cpp.o: CMakeFiles/DataStructures.dir/flags.make
+CMakeFiles/DataStructures.dir/src/Sort/BubbleSort/testBubbleSort.cpp.o: ../src/Sort/BubbleSort/testBubbleSort.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fll/WorkSpaces/CLion/DataStructures/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/DataStructures.dir/src/Sort/BubbleSort/testBubbleSort.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DataStructures.dir/src/Sort/BubbleSort/testBubbleSort.cpp.o -c /Users/fll/WorkSpaces/CLion/DataStructures/src/Sort/BubbleSort/testBubbleSort.cpp
+
+CMakeFiles/DataStructures.dir/src/Sort/BubbleSort/testBubbleSort.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DataStructures.dir/src/Sort/BubbleSort/testBubbleSort.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/fll/WorkSpaces/CLion/DataStructures/src/Sort/BubbleSort/testBubbleSort.cpp > CMakeFiles/DataStructures.dir/src/Sort/BubbleSort/testBubbleSort.cpp.i
+
+CMakeFiles/DataStructures.dir/src/Sort/BubbleSort/testBubbleSort.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DataStructures.dir/src/Sort/BubbleSort/testBubbleSort.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/fll/WorkSpaces/CLion/DataStructures/src/Sort/BubbleSort/testBubbleSort.cpp -o CMakeFiles/DataStructures.dir/src/Sort/BubbleSort/testBubbleSort.cpp.s
+
 CMakeFiles/DataStructures.dir/main.cpp.o: CMakeFiles/DataStructures.dir/flags.make
 CMakeFiles/DataStructures.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fll/WorkSpaces/CLion/DataStructures/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/DataStructures.dir/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fll/WorkSpaces/CLion/DataStructures/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/DataStructures.dir/main.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DataStructures.dir/main.cpp.o -c /Users/fll/WorkSpaces/CLion/DataStructures/main.cpp
 
 CMakeFiles/DataStructures.dir/main.cpp.i: cmake_force
@@ -128,6 +154,8 @@ DataStructures_OBJECTS = \
 "CMakeFiles/DataStructures.dir/src/Sort/SimpleSelect/SimpleSelect.cpp.o" \
 "CMakeFiles/DataStructures.dir/src/Common/Commons.cpp.o" \
 "CMakeFiles/DataStructures.dir/src/Stack/Stack.cpp.o" \
+"CMakeFiles/DataStructures.dir/src/Stack/testStack.cpp.o" \
+"CMakeFiles/DataStructures.dir/src/Sort/BubbleSort/testBubbleSort.cpp.o" \
 "CMakeFiles/DataStructures.dir/main.cpp.o"
 
 # External object files for target DataStructures
@@ -137,10 +165,12 @@ DataStructures: CMakeFiles/DataStructures.dir/src/Sort/BubbleSort/BubbleSort.cpp
 DataStructures: CMakeFiles/DataStructures.dir/src/Sort/SimpleSelect/SimpleSelect.cpp.o
 DataStructures: CMakeFiles/DataStructures.dir/src/Common/Commons.cpp.o
 DataStructures: CMakeFiles/DataStructures.dir/src/Stack/Stack.cpp.o
+DataStructures: CMakeFiles/DataStructures.dir/src/Stack/testStack.cpp.o
+DataStructures: CMakeFiles/DataStructures.dir/src/Sort/BubbleSort/testBubbleSort.cpp.o
 DataStructures: CMakeFiles/DataStructures.dir/main.cpp.o
 DataStructures: CMakeFiles/DataStructures.dir/build.make
 DataStructures: CMakeFiles/DataStructures.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/fll/WorkSpaces/CLion/DataStructures/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable DataStructures"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/fll/WorkSpaces/CLion/DataStructures/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable DataStructures"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/DataStructures.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

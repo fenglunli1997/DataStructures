@@ -14,16 +14,16 @@ void swap(int& a, int& b){
     a = temp;
 }
 
-void descSort(ElemType* result){  //改用栈实现
+void descSort(ElemType* arr){  //改用栈实现
 //    for(int i=0; i<size/2; i++){
 //        swap(result[i], result[size-i-1]);
 //    }
-    Stack s(result);
-    s.desc();
+    descArray(arr);
 }
 
-void printSort(bool isDesc, int size, int* result){
-    cout << (isDesc ? "从大到小" : "从小到大") << "的排列是:{";
+void printSort(int* result, bool order){
+    int size = getArrayLength(result);
+    cout << (order ? "从大到小" : "从小到大") << "的排列是:{";
     for(int i=0; i<size; i++){
         cout<<result[i];
         if(i!=size-1){
@@ -35,13 +35,22 @@ void printSort(bool isDesc, int size, int* result){
     }
 }
 
-int getArrayLength(ElemType* arr){
-    return sizeof(arr)/sizeof(arr[0]);
+template<class T>
+int getArrayLength(T &arr){
+//int getArrayLength(T* arr){
+    return sizeof(arr)/sizeof(arr[0]);//有问题
 }
 
 void printArray(ElemType* arr){
     int length = getArrayLength(arr);
+    cout<<"{";
     for (int i = 0; i < length; i++){
-        cout << arr[i] << ',';
+        cout << arr[i];
+        if(i!=length-1){
+            cout<<",";
+        }else{
+            cout<<"}";
+            return;
+        }
     }
 }

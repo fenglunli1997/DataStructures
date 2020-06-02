@@ -7,8 +7,10 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/fll/WorkSpaces/CLion/DataStructures/main.cpp" "/Users/fll/WorkSpaces/CLion/DataStructures/cmake-build-debug/CMakeFiles/DataStructures.dir/main.cpp.o"
   "/Users/fll/WorkSpaces/CLion/DataStructures/src/Common/Commons.cpp" "/Users/fll/WorkSpaces/CLion/DataStructures/cmake-build-debug/CMakeFiles/DataStructures.dir/src/Common/Commons.cpp.o"
   "/Users/fll/WorkSpaces/CLion/DataStructures/src/Sort/BubbleSort/BubbleSort.cpp" "/Users/fll/WorkSpaces/CLion/DataStructures/cmake-build-debug/CMakeFiles/DataStructures.dir/src/Sort/BubbleSort/BubbleSort.cpp.o"
+  "/Users/fll/WorkSpaces/CLion/DataStructures/src/Sort/BubbleSort/testBubbleSort.cpp" "/Users/fll/WorkSpaces/CLion/DataStructures/cmake-build-debug/CMakeFiles/DataStructures.dir/src/Sort/BubbleSort/testBubbleSort.cpp.o"
   "/Users/fll/WorkSpaces/CLion/DataStructures/src/Sort/SimpleSelect/SimpleSelect.cpp" "/Users/fll/WorkSpaces/CLion/DataStructures/cmake-build-debug/CMakeFiles/DataStructures.dir/src/Sort/SimpleSelect/SimpleSelect.cpp.o"
   "/Users/fll/WorkSpaces/CLion/DataStructures/src/Stack/Stack.cpp" "/Users/fll/WorkSpaces/CLion/DataStructures/cmake-build-debug/CMakeFiles/DataStructures.dir/src/Stack/Stack.cpp.o"
+  "/Users/fll/WorkSpaces/CLion/DataStructures/src/Stack/testStack.cpp" "/Users/fll/WorkSpaces/CLion/DataStructures/cmake-build-debug/CMakeFiles/DataStructures.dir/src/Stack/testStack.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

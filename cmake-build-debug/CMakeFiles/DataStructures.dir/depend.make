@@ -13,10 +13,17 @@ CMakeFiles/DataStructures.dir/src/Sort/BubbleSort/BubbleSort.cpp.o: ../src/Commo
 CMakeFiles/DataStructures.dir/src/Sort/BubbleSort/BubbleSort.cpp.o: ../src/Sort/BubbleSort/BubbleSort.cpp
 CMakeFiles/DataStructures.dir/src/Sort/BubbleSort/BubbleSort.cpp.o: ../src/Sort/BubbleSort/BubbleSort.h
 
+CMakeFiles/DataStructures.dir/src/Sort/BubbleSort/testBubbleSort.cpp.o: ../src/Sort/BubbleSort/BubbleSort.h
+CMakeFiles/DataStructures.dir/src/Sort/BubbleSort/testBubbleSort.cpp.o: ../src/Sort/BubbleSort/testBubbleSort.cpp
+
 CMakeFiles/DataStructures.dir/src/Sort/SimpleSelect/SimpleSelect.cpp.o: ../src/Sort/SimpleSelect/SimpleSelect.cpp
 CMakeFiles/DataStructures.dir/src/Sort/SimpleSelect/SimpleSelect.cpp.o: ../src/Sort/SimpleSelect/SimpleSelect.h
 
 CMakeFiles/DataStructures.dir/src/Stack/Stack.cpp.o: ../src/Common/Commons.h
 CMakeFiles/DataStructures.dir/src/Stack/Stack.cpp.o: ../src/Stack/Stack.cpp
 CMakeFiles/DataStructures.dir/src/Stack/Stack.cpp.o: ../src/Stack/Stack.h
+
+CMakeFiles/DataStructures.dir/src/Stack/testStack.cpp.o: ../src/Common/Commons.h
+CMakeFiles/DataStructures.dir/src/Stack/testStack.cpp.o: ../src/Stack/Stack.h
+CMakeFiles/DataStructures.dir/src/Stack/testStack.cpp.o: ../src/Stack/testStack.cpp
 

@@ -1,29 +1,27 @@
 #ifndef BUBBLESORT_H
 #define BUBBLESORT_H
+//#define MAXSIZE 100
 class BubbleSort {
 private:
-    int *result;
+    int *result{};
     int size;
-    bool isDesc;//排序方式:true:从大到小(默认false从小到大)
+    bool order{};//排序方式:true:从大到小(默认false从小到大)
 
-    int *sort(int array[]);
+    void sort(int array[]);
 
-    void desc();
+    void setOrder(bool b);
 
 public:
-    BubbleSort();
 
-    BubbleSort(int array[]);
+    explicit BubbleSort(int array[]);
 
-    BubbleSort(int array[], int size);
-
-    BubbleSort(int array[], int size, bool isDesc);
+    bool getOrder() const;
 
     int *getSort();
 
     void print();
 
-//    int test();
+    void desc();
 };
 
 int testBubbleSort();
