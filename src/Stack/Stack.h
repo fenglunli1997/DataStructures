@@ -5,11 +5,11 @@
 #ifndef DATASTRUCTURES_STACK_H
 #define DATASTRUCTURES_STACK_H
 
-#define MAXSIZE 10
+#define MAXlength 10
 #define ElemType int
 
 typedef struct {
-    ElemType array[MAXSIZE];
+    ElemType array[MAXlength];
     int top;
 } stack;
 
@@ -21,9 +21,9 @@ private:
 public:
     Stack();
 
-    explicit Stack(ElemType* arr);
+    Stack(ElemType* arr, int length);
 
-    void quickInit(ElemType* arr);
+    void quickInit(ElemType* arr, int length);
 
     bool isEmpty() const;
 
@@ -38,7 +38,7 @@ public:
     void print();
 };
 
-void descArray(ElemType *result);
+void descArray(ElemType *result, int length);
 
 void testStack();
 

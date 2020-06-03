@@ -41,12 +41,12 @@ void testStack(){
         } else if (choice == 6){
             cout<< s.getSum() <<endl;
         } else if (choice == 7){
-            ElemType arr[MAXSIZE];
-            int i = 0;
-            while (cin>>i && i!=0){
-                cin>>arr[i];
+            ElemType arr[MAXlength];
+            int e, i = 0;
+            while (cin>>e && e!=0){
+                arr[i++] = e;
             }
-            s.quickInit(arr);
+            s.quickInit(arr, i);
         }
         cout << str;
     }

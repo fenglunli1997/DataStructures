@@ -1,7 +1,6 @@
 //
 // Created by fll on 2020/6/1.
 //
-
 #include <iostream>
 #include "Commons.h"
 #include "../Stack/Stack.h"
@@ -14,19 +13,15 @@ void swap(int& a, int& b){
     a = temp;
 }
 
-void descSort(ElemType* arr){  //改用栈实现
-//    for(int i=0; i<size/2; i++){
-//        swap(result[i], result[size-i-1]);
-//    }
-    descArray(arr);
+void descSort(ElemType* arr, int length){
+    descArray(arr, length);
 }
 
-void printSort(int* result, bool order){
-    int size = getArrayLength(result);
+void printSort(int* result, bool order, int length){
     cout << (order ? "从大到小" : "从小到大") << "的排列是:{";
-    for(int i=0; i<size; i++){
+    for(int i=0; i<length; i++){
         cout<<result[i];
-        if(i!=size-1){
+        if(i!=length-1){
             cout<<",";
         }else{
             cout<<"}";
@@ -35,14 +30,7 @@ void printSort(int* result, bool order){
     }
 }
 
-template<class T>
-int getArrayLength(T &arr){
-//int getArrayLength(T* arr){
-    return sizeof(arr)/sizeof(arr[0]);//有问题
-}
-
-void printArray(ElemType* arr){
-    int length = getArrayLength(arr);
+void printArray(ElemType* arr, int length){
     cout<<"{";
     for (int i = 0; i < length; i++){
         cout << arr[i];

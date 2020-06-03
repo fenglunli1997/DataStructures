@@ -8,14 +8,10 @@
 
 void swap(int& a, int& b);
 
-void descSort(ElemType* result);
+void descSort(ElemType* result, int length);
 
-void printSort(int* result, bool isDesc);
+void printSort(int* result, bool isDesc, int length);
 
-//int getArrayLength(int* arr);
-template<class T>
-int getArrayLength(const T &arr);
-
-void printArray(ElemType* arr);
+void printArray(ElemType* arr, int length);
 
 #endif //DATASTRUCTURES_COMMONS_H

@@ -12,17 +12,16 @@ Stack::Stack() {
     init();
 }
 
-Stack::Stack(ElemType* arr){
+Stack::Stack(ElemType* arr, int length){
     init();
-    quickInit(arr);
+    quickInit(arr, length);
 }
 
 void Stack::init(){
     s.top = -1;
 }
 
-void Stack::quickInit(ElemType* arr){
-    int length = getArrayLength(arr);
+void Stack::quickInit(ElemType* arr, int length){
     for (int i = 0; i < length; ++i) {
         push(arr[i]);
     }
@@ -55,11 +54,11 @@ ElemType* Stack::popAll(){
 }
 
 void Stack::print(){
-    printArray(popAll());
+    printArray(popAll(), getSum());
 }
 
-void descArray(ElemType *arr) {
-    Stack s(arr);
+void descArray(ElemType *arr, int length) {
+    Stack s(arr, length);
 //    s.quickInit(arr);
     int i = 0;
     while (!s.isEmpty()){
