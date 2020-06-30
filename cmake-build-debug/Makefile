@@ -258,6 +258,33 @@ src/Sort/SimpleSelect/SimpleSelect.cpp.s:
 	$(MAKE) -f CMakeFiles/DataStructures.dir/build.make CMakeFiles/DataStructures.dir/src/Sort/SimpleSelect/SimpleSelect.cpp.s
 .PHONY : src/Sort/SimpleSelect/SimpleSelect.cpp.s
 
+src/Sort/Sort.o: src/Sort/Sort.cpp.o
+
+.PHONY : src/Sort/Sort.o
+
+# target to build an object file
+src/Sort/Sort.cpp.o:
+	$(MAKE) -f CMakeFiles/DataStructures.dir/build.make CMakeFiles/DataStructures.dir/src/Sort/Sort.cpp.o
+.PHONY : src/Sort/Sort.cpp.o
+
+src/Sort/Sort.i: src/Sort/Sort.cpp.i
+
+.PHONY : src/Sort/Sort.i
+
+# target to preprocess a source file
+src/Sort/Sort.cpp.i:
+	$(MAKE) -f CMakeFiles/DataStructures.dir/build.make CMakeFiles/DataStructures.dir/src/Sort/Sort.cpp.i
+.PHONY : src/Sort/Sort.cpp.i
+
+src/Sort/Sort.s: src/Sort/Sort.cpp.s
+
+.PHONY : src/Sort/Sort.s
+
+# target to generate assembly for a file
+src/Sort/Sort.cpp.s:
+	$(MAKE) -f CMakeFiles/DataStructures.dir/build.make CMakeFiles/DataStructures.dir/src/Sort/Sort.cpp.s
+.PHONY : src/Sort/Sort.cpp.s
+
 src/Stack/Stack.o: src/Stack/Stack.cpp.o
 
 .PHONY : src/Stack/Stack.o
@@ -336,6 +363,9 @@ help:
 	@echo "... src/Sort/SimpleSelect/SimpleSelect.o"
 	@echo "... src/Sort/SimpleSelect/SimpleSelect.i"
 	@echo "... src/Sort/SimpleSelect/SimpleSelect.s"
+	@echo "... src/Sort/Sort.o"
+	@echo "... src/Sort/Sort.i"
+	@echo "... src/Sort/Sort.s"
 	@echo "... src/Stack/Stack.o"
 	@echo "... src/Stack/Stack.i"
 	@echo "... src/Stack/Stack.s"

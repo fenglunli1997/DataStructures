@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/fll/WorkSpaces/CLion/DataStructures/src/Sort/BubbleSort/BubbleSort.cpp" "/Users/fll/WorkSpaces/CLion/DataStructures/cmake-build-debug/CMakeFiles/DataStructures.dir/src/Sort/BubbleSort/BubbleSort.cpp.o"
   "/Users/fll/WorkSpaces/CLion/DataStructures/src/Sort/BubbleSort/testBubbleSort.cpp" "/Users/fll/WorkSpaces/CLion/DataStructures/cmake-build-debug/CMakeFiles/DataStructures.dir/src/Sort/BubbleSort/testBubbleSort.cpp.o"
   "/Users/fll/WorkSpaces/CLion/DataStructures/src/Sort/SimpleSelect/SimpleSelect.cpp" "/Users/fll/WorkSpaces/CLion/DataStructures/cmake-build-debug/CMakeFiles/DataStructures.dir/src/Sort/SimpleSelect/SimpleSelect.cpp.o"
+  "/Users/fll/WorkSpaces/CLion/DataStructures/src/Sort/Sort.cpp" "/Users/fll/WorkSpaces/CLion/DataStructures/cmake-build-debug/CMakeFiles/DataStructures.dir/src/Sort/Sort.cpp.o"
   "/Users/fll/WorkSpaces/CLion/DataStructures/src/Stack/Stack.cpp" "/Users/fll/WorkSpaces/CLion/DataStructures/cmake-build-debug/CMakeFiles/DataStructures.dir/src/Stack/Stack.cpp.o"
   "/Users/fll/WorkSpaces/CLion/DataStructures/src/Stack/testStack.cpp" "/Users/fll/WorkSpaces/CLion/DataStructures/cmake-build-debug/CMakeFiles/DataStructures.dir/src/Stack/testStack.cpp.o"
   )

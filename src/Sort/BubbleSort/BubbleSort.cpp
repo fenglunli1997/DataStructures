@@ -1,7 +1,12 @@
 #include "BubbleSort.h"
 #include "../../Common/Commons.h"
 
-void BubbleSort::bubble_sort(int array[]){
+BubbleSort::BubbleSort(int array[], int length) : Sort(array, length) {
+    //先调用父类的构造函数，设置length和order
+    sort(array);    //报错无视
+}
+
+void BubbleSort::sort(int array[]){
     for(int i=getLength(); i>0; i--){
         for (int j=1; j<i; j++){
             if(array[j-1] > array[j]){      //保持右边的元素比左边的都大
@@ -9,36 +14,5 @@ void BubbleSort::bubble_sort(int array[]){
             }
         }
     }
-    result = array;
-}
-
-void BubbleSort::desc(){
-    setOrder(true);
-    descSort(result, getLength());
-}
-
-BubbleSort::BubbleSort(int array[], int length){
-    this->length = length;
-    setOrder(false);
-    bubble_sort(array);
-}
-
-void BubbleSort::setOrder(bool b){
-    this->order = b;
-}
-
-bool BubbleSort::getOrder() const{
-    return this->order;
-}
-
-int BubbleSort::getLength() const {
-    return length;
-}
-
-int * BubbleSort::getSort(){
-    return result;
-}
-
-void BubbleSort::print(){
-    printSort(result, getOrder(), getLength());
+    setResult(array);
 }

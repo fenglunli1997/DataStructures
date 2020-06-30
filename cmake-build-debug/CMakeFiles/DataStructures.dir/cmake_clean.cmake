@@ -4,6 +4,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/DataStructures.dir/src/Sort/BubbleSort/BubbleSort.cpp.o"
   "CMakeFiles/DataStructures.dir/src/Sort/BubbleSort/testBubbleSort.cpp.o"
   "CMakeFiles/DataStructures.dir/src/Sort/SimpleSelect/SimpleSelect.cpp.o"
+  "CMakeFiles/DataStructures.dir/src/Sort/Sort.cpp.o"
   "CMakeFiles/DataStructures.dir/src/Stack/Stack.cpp.o"
   "CMakeFiles/DataStructures.dir/src/Stack/testStack.cpp.o"
   "DataStructures"

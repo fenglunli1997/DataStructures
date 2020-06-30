@@ -104,6 +104,12 @@
 		<Unit filename="/Users/fll/WorkSpaces/CLion/DataStructures/src/Sort/SimpleSelect/SimpleSelect.h">
 			<Option target="DataStructures"/>
 		</Unit>
+		<Unit filename="/Users/fll/WorkSpaces/CLion/DataStructures/src/Sort/Sort.cpp">
+			<Option target="DataStructures"/>
+		</Unit>
+		<Unit filename="/Users/fll/WorkSpaces/CLion/DataStructures/src/Sort/Sort.h">
+			<Option target="DataStructures"/>
+		</Unit>
 		<Unit filename="/Users/fll/WorkSpaces/CLion/DataStructures/src/Stack/Stack.cpp">
 			<Option target="DataStructures"/>
 		</Unit>
