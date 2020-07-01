@@ -13,6 +13,22 @@ void swap(int& a, int& b){
     a = temp;
 }
 
+int getMin(int a, int b){
+    return a<b ? a : b;
+}
+
+bool isMin(int& a, int& b){
+    if (a > b) {
+        swap(a, b);
+        return false;
+    } else
+        return true;
+}
+
+int getMax(int a, int b){
+    return a>b ? a : b;
+}
+
 void descSort(ElemType* arr, int length){
     descArray(arr, length);
 }

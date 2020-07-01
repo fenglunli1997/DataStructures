@@ -12,6 +12,6 @@ public:
     void sort(int array[]) override;
 };
 
-int testBubbleSort();
+int testSort();
 
 #endif
