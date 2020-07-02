@@ -3,7 +3,7 @@
 //
 #include <iostream>
 #include "Commons.h"
-#include "../Stack/Stack.h"
+#include "../DS/Stack/Stack.h"
 using std::cin;
 using std::cout;
 
@@ -13,32 +13,23 @@ void swap(int& a, int& b){
     a = temp;
 }
 
-int getMin(int a, int b){
+int min(int a, int b){
     return a<b ? a : b;
 }
 
-int getMax(int a, int b){
+int max(int a, int b){
     return a>b ? a : b;
 }
 
-void descSort(ElemType* arr, int length){
-    descArray(arr, length);
-}
-
-void printSort(int* result, bool order, int length){
-    cout << (order ? "从大到小" : "从小到大") << "的排列是:{";
-    for(int i=0; i<length; i++){
-        cout<<result[i];
-        if(i!=length-1){
-            cout<<",";
-        }else{
-            cout<<"}";
-            return;
-        }
+void desc(ElemType* arr, int length){
+    Stack s(arr, length);
+    int i = 0;
+    while (!s.isEmpty()){
+        s.pop(arr[i++]);
     }
 }
 
-void printArray(ElemType* arr, int length){
+void print(ElemType* arr, int length){
     cout<<"{";
     for (int i = 0; i < length; i++){
         cout << arr[i];

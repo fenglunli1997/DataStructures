@@ -3,7 +3,7 @@
   <component name="CMakeWorkspace" PROJECT_DIR="$PROJECT_DIR$" />
   <component name="CidrRootsConfiguration">
     <sourceRoots>
-      <file path="$PROJECT_DIR$/src/Sort/BubbleSort" />
+      <file path="$PROJECT_DIR$/src/DS/Sort/Swap/BubbleSort" />
     </sourceRoots>
     <libraryRoots>
       <file path="$PROJECT_DIR$/lib" />

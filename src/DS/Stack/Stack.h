@@ -38,8 +38,4 @@ public:
     void print();
 };
 
-void descArray(ElemType *result, int length);
-
-void testStack();
-
 #endif //DATASTRUCTURES_STACK_H

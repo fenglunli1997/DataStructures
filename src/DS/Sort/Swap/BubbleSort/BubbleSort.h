@@ -1,9 +1,8 @@
 #ifndef BUBBLESORT_H
 #define BUBBLESORT_H
 
-#include "../Sort.h"
+#include "../../Sort.h"
 
-//#define MAXlength 100
 class BubbleSort: public Sort {
 public:
 
@@ -11,7 +10,5 @@ public:
 
     void sort(int array[]) override;
 };
-
-int testSort();
 
 #endif

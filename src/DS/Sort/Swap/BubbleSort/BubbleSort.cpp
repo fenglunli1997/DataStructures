@@ -1,5 +1,5 @@
 #include "BubbleSort.h"
-#include "../../Common/Commons.h"
+#include "../../../../Common/Commons.h"
 
 BubbleSort::BubbleSort(int array[], int length) : Sort(array, length) {
     //先调用父类的构造函数，设置length和order

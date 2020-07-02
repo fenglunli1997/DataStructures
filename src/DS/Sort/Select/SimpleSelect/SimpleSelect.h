@@ -6,7 +6,7 @@
 #define DATASTRUCTURES_SIMPLESELECT_H
 
 
-#include "../Sort.h"
+#include "../../Sort.h"
 
 class SimpleSelect: public Sort{
 public:

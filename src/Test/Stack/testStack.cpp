@@ -2,8 +2,8 @@
 // Created by fll on 2020/6/2.
 //
 #include <iostream>
-#include "Stack.h"
-#include "../Common/Commons.h"
+#include "../../DS/Stack/Stack.h"
+#include "../../Common/Commons.h"
 using std::cin;
 using std::cout;
 using std::endl;
@@ -33,8 +33,8 @@ void testStack(){
             s.print();
             return;
         } else if (choice == 4){
-//            descArray(s);
-//            printArray(s.desc());
+//            desc(s);
+//            print(s.desc());
             return;
         } else if (choice == 5){
             cout<<(s.isEmpty() ? "已空" : "非空")<<endl;

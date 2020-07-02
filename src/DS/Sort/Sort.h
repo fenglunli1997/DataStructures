@@ -5,6 +5,8 @@
 #ifndef DATASTRUCTURES_SORT_H
 #define DATASTRUCTURES_SORT_H
 
+#include <iostream>
+using std::ostream;
 
 class Sort {
 private:
@@ -33,6 +35,8 @@ public:
     void setOrder(bool b);
 
     bool getOrder() const;
+
+    friend ostream &operator<<(ostream &output, Sort &s);
 
 };
 

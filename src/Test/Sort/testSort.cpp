@@ -2,10 +2,10 @@
 // Created by fll on 2020/6/2.
 //
 #include <iostream>
-#include "Sort.h"
-#include "BubbleSort/BubbleSort.h"
-#include "SimpleSelect//SimpleSelect.h"
-#include "../Common/Commons.h"
+#include "../../DS/Sort/Sort.h"
+#include "../../DS/Sort/Swap/BubbleSort/BubbleSort.h"
+#include "../../DS/Sort/Select/SimpleSelect/SimpleSelect.h"
+#include "../../Common/Commons.h"
 
 using std::cin;
 using std::cout;
@@ -19,7 +19,8 @@ void fun(Sort sort){
     while(cin>>choice && choice!=0){
         if ((choice==1 || sort.getOrder()) && !(choice==1 && sort.getOrder()))//true的情况：01\10
             sort.desc();
-        sort.print();
+//        sort.print();
+        cout<<sort;
         cout<<endl<<str_order_rule;
     }
 }
@@ -36,8 +37,8 @@ int testSort(){
     for(int i=0; i<length; i++){
         cin >> array[i];
     }
-    printArray(array, length);
-    cout << str_sort_type;
+    print(array, length);
+    cout << endl << str_sort_type;
     int sort_type;
     cin >> sort_type;
     cout << str_order_rule;

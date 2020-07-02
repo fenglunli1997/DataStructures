@@ -3,7 +3,7 @@
 //
 #include <iostream>
 #include "Stack.h"
-#include "../Common/Commons.h"
+#include "../../Common/Commons.h"
 using std::cin;
 using std::cout;
 using std::endl;
@@ -54,14 +54,5 @@ ElemType* Stack::popAll(){
 }
 
 void Stack::print(){
-    printArray(popAll(), getSum());
-}
-
-void descArray(ElemType *arr, int length) {
-    Stack s(arr, length);
-//    s.quickInit(arr);
-    int i = 0;
-    while (!s.isEmpty()){
-        s.pop(arr[i++]);
-    }
+    ::print(popAll(), getSum());
 }

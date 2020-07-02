@@ -1,6 +1,6 @@
 #include <iostream>
-#include "src/Sort/BubbleSort/BubbleSort.h"
-#include "src/Stack/Stack.h"
+#include "src/Test/Sort/testSort.h"
+#include "src/Test/Stack/testStack.h"
 using std::cin;
 using std::cout;
 using std::endl;
