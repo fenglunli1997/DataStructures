@@ -19,7 +19,7 @@ void Sort::print() {
 }
 
 void Sort::desc(){
-    setOrder(true);
+    setOrder(!getOrder());
     descSort(getResult(), getLength());
 }
 

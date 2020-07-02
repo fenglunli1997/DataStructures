@@ -15,8 +15,8 @@ void SimpleSelect::sort(int *array) {
         location = i;
         for (int j = i+1; j < length; ++j) {
             if (min > array[j]) {
-                min = array[i];
-                location = i;
+                min = array[j];
+                location = j;
             }
         }
         if (min < array[i]){

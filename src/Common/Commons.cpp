@@ -17,14 +17,6 @@ int getMin(int a, int b){
     return a<b ? a : b;
 }
 
-bool isMin(int& a, int& b){
-    if (a > b) {
-        swap(a, b);
-        return false;
-    } else
-        return true;
-}
-
 int getMax(int a, int b){
     return a>b ? a : b;
 }

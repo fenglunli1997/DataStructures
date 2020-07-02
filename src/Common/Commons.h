@@ -14,8 +14,6 @@ void swap(int& a, int& b);
 
 int getMin(int a, int b);
 
-bool isMin(int& a, int& b);
-
 int getMax(int a, int b);
 
 void descSort(ElemType* result, int length);

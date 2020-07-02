@@ -17,7 +17,7 @@ using std::endl;
 void fun(Sort sort){
     int choice;
     while(cin>>choice && choice!=0){
-        if (choice==1)
+        if ((choice==1 || sort.getOrder()) && !(choice==1 && sort.getOrder()))//true的情况：01\10
             sort.desc();
         sort.print();
         cout<<endl<<str_order_rule;
