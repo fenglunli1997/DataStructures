@@ -6,6 +6,7 @@
 #include "../../DS/Sort/Swap/BubbleSort/BubbleSort.h"
 #include "../../DS/Sort/Select/SimpleSelect/SimpleSelect.h"
 #include "../../DS/Sort/Insert/DirectInsertSort/DirectInsertSort.h"
+#include "../../DS/Sort/Insert/BinaryInsertSort//BinaryInsertSort.h"
 #include "../../Common/Commons.h"
 
 using std::cin;
@@ -13,7 +14,7 @@ using std::cout;
 using std::endl;
 
 #define str_order_rule "输入排序方式，1代表从大到小，0为退出:"
-#define str_sort_type "请输入排序类型：1.冒泡排序;2.简单插入排序;3.直接插入排序"
+#define str_sort_type "请输入排序类型：1.冒泡排序;2.简单插入排序;3.直接插入排序;4.折半插入排序"
 
 void fun(Sort sort){
     int choice;
@@ -52,6 +53,9 @@ int testSort(){
             break;
         case 3:
             fun(DirectInsertSort(array, length));
+            break;
+        case 4:
+            fun(BinaryInsertSort(array, length));
             break;
         default:
             fun(Sort(array, length));

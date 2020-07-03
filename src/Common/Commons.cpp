@@ -21,6 +21,13 @@ int max(int a, int b){
     return a>b ? a : b;
 }
 
+void insert(int* array, int length, int position, int val){
+    for (int i = length; i > position; --i) {
+        array[i] = array[i-1];
+    }
+    array[position] = val;
+}
+
 void desc(ElemType* arr, int length){
     Stack s(arr, length);
     int i = 0;
